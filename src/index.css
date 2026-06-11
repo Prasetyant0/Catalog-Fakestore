@@ -1,1 +1,17 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #00AA5B;
+  --color-brand-hover: #008f4c;
+  --color-rating: #FF9900;
+  --color-dark: #212121;
+  --color-muted: #6D7588;
+  --color-canvas: #F4F5F7;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-dark);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
